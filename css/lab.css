@@ -297,6 +297,19 @@ section { padding: 4.5rem 0; }
 }
 .lab-card p:last-child { margin-bottom: 0; }
 
+.person-card {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+}
+
+.person-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+
 .theme-card {
   border-left: 4px solid var(--lab-accent);
 }
@@ -355,6 +368,8 @@ section { padding: 4.5rem 0; }
 }
 .person-role {
   color: var(--lab-muted);
+  font-size: 0.85rem;
+  line-height: 1.45;
   margin-bottom: 0.4rem;
 }
 
